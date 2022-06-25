@@ -19,21 +19,14 @@ components:
     volume:
       size: 1G
 commands:
-  - id: 1-update-dependencies
-    exec:
-      component: tools
-      workingDir: ${PROJECTS_ROOT}/dotnet-web-simple
-      commandLine: "dotnet restore"
-      group:
-        kind: build
-  - id: 2-build
+  - id: 1-build
     exec:
       component: tools
       workingDir: ${PROJECTS_ROOT}/dotnet-web-simple
       commandLine: "dotnet build"
       group:
         kind: build
-  - id: 3-run
+  - id: 2-run
     exec:
       component: tools
       workingDir: ${PROJECTS_ROOT}/dotnet-web-simple
