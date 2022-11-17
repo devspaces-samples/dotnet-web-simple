@@ -4,14 +4,14 @@
  *  Licensed under the MIT License. See LICENSE in the project root for license information.
  ************************************************************************************************
  -->
+
 <Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
-    <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>web</RootNamespace>
   </PropertyGroup>
-
-  <ItemGroup>
-  </ItemGroup>
 
 </Project>
