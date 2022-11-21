@@ -11,7 +11,7 @@ components:
         - exposure: public
           name: 'hello-endpoint'
           protocol: http
-          targetPort: 5000
+          targetPort: 5032
       volumeMounts:
         - name: nuget
           path: /home/user/.nuget
