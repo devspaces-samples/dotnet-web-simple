@@ -2,7 +2,6 @@
     // See https://go.microsoft.com/fwlink/?LinkId=827846
     // for the documentation about the extensions.json format
     "recommendations": [
-      "redhat-developer.che-omnisharp-plugin",
-      "redhat-developer.netcoredbg-theia-plugin"
+      "muhammad-sammy.csharp"
     ]
   }
