@@ -5,7 +5,10 @@ components:
   - name: tools
     container:
       image: registry.redhat.io/devspaces/udi-rhel8:3.9
-      memoryLimit: 2Gi
+      memoryLimit: '2Gi'
+      memoryRequest: '1Gi'
+      cpuLimit: '1'
+      cpuRequest: '0.5'
       mountSources: true
       endpoints:
         - exposure: public
@@ -21,6 +24,7 @@ components:
 commands:
   - id: 1-update-dependencies
     exec:
+      label: 1.Update dependencies
       component: tools
       workingDir: ${PROJECTS_ROOT}/dotnet-web-simple
       commandLine: "dotnet restore"
@@ -28,6 +32,7 @@ commands:
         kind: build
   - id: 2-build
     exec:
+      label: 2.Build
       component: tools
       workingDir: ${PROJECTS_ROOT}/dotnet-web-simple
       commandLine: "dotnet build"
@@ -35,6 +40,7 @@ commands:
         kind: build
   - id: 3-run
     exec:
+      label: 3.Run
       component: tools
       workingDir: ${PROJECTS_ROOT}/dotnet-web-simple
       commandLine: "dotnet run"
