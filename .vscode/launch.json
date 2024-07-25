@@ -9,7 +9,7 @@
             "type": "coreclr",
             "request": "launch",
             // If you have changed target frameworks, make sure to update the program path.
-            "program": "${workspaceFolder}/bin/Debug/net7.0/web.dll",
+            "program": "${workspaceFolder}/bin/Debug/net8.0/web.dll",
             "args": [],
             "cwd": "${workspaceFolder}",
             "stopAtEntry": true,
