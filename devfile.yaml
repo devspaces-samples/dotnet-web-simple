@@ -4,7 +4,7 @@ metadata:
 components:
   - name: tools
     container:
-      image: registry.redhat.io/devspaces/udi-rhel8:3.16
+      image: quay.io/vsvydenk/udi:dotnet80
       memoryLimit: '2Gi'
       memoryRequest: '1Gi'
       cpuLimit: '1'
