@@ -10,4 +10,4 @@ The app will print `Hello World!`
 
 ## Image Of Devfile
 
-[Community .NET Image](quay.io/cgruver0/che/dot-net:fedora) is used as an image for .NET development and it's defined in https://github.com/cgruver/dev-spaces-dotnet/blob/main/workspace-container-image/Containerfile.
+[Community .NET Image](quay.io/devspaces/dotnet-90) is used as an image for .NET development and it's defined in https://github.com/devspaces-samples/dotnet-web-simple/blob/devspaces-3-rhel-9/workspace-container-image/Containerfile.
