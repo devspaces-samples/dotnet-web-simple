@@ -4,8 +4,8 @@ metadata:
 components:
   - name: tools
     container:
-      #  quay.io/devspaces/dotnet-90:9.0-fedora-20250415-095811
-      image: quay.io/devspaces/dotnet-90@sha256:5cb201f58ebf20d76b7b99e013da46aa6cfe594c5763ab873bcc6436965d7859
+      #  registry.redhat.io/devspaces/dotnet-90:3.22fedora-20250415-095811
+      image: registry.redhat.io/devspaces/dotnet-90@sha256:3.22cb201f58ebf20d76b7b99e013da46aa6cfe594c5763ab873bcc6436965d7859
       memoryLimit: '2Gi'
       memoryRequest: '1Gi'
       cpuLimit: '1'
