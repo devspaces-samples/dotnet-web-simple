@@ -1,4 +1,4 @@
-FROM quay.io/fedora/fedora:41
+FROM quay.io/fedora/fedora:44
 
 ARG USER_HOME_DIR="/home/user"
 ARG WORK_DIR="/projects"
